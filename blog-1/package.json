@@ -1,0 +1,22 @@
+{
+  "name": "blog-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "blog-1": "bin/www.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_ENV=production nodemon ./bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
